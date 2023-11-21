@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1087526961947",
+    "project_id": "exemplo-firestore-170f9",
+    "storage_bucket": "exemplo-firestore-170f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087526961947:android:95610fe3e09bc92b23c9be",
+        "android_client_info": {
+          "package_name": "br.edu.ifsp.dmo.exemplofirestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJJcOKrJWCS1DGFGa1iCIU-blD6R2W-ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_insere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Insere"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_recupera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Recupera"
+        app:layout_constraintEnd_toEndOf="@+id/button_insere"
+        app:layout_constraintStart_toStartOf="@+id/button_insere"
+        app:layout_constraintTop_toBottomOf="@+id/button_insere" />
+
+    <Button
+        android:id="@+id/button_insere_disciplinas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Insere coleção de disciplinas"
+        app:layout_constraintEnd_toEndOf="@+id/button_recupera"
+        app:layout_constraintStart_toStartOf="@+id/button_recupera"
+        app:layout_constraintTop_toBottomOf="@+id/button_recupera" />
+
+    <Button
+        android:id="@+id/button_recupera_lpe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Recuperar LPE"
+        app:layout_constraintEnd_toEndOf="@+id/button_insere_disciplinas"
+        app:layout_constraintStart_toStartOf="@+id/button_insere_disciplinas"
+        app:layout_constraintTop_toBottomOf="@+id/button_insere_disciplinas" />
+
+    <Button
+        android:id="@+id/button_recupera_dmo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Recuperar DMO"
+        app:layout_constraintEnd_toEndOf="@+id/button_recupera_lpe"
+        app:layout_constraintStart_toStartOf="@+id/button_recupera_lpe"
+        app:layout_constraintTop_toBottomOf="@+id/button_recupera_lpe" />
+
+    <Button
+        android:id="@+id/button_consulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Consulta"
+        app:layout_constraintEnd_toEndOf="@+id/button_recupera_dmo"
+        app:layout_constraintStart_toStartOf="@+id/button_recupera_dmo"
+        app:layout_constraintTop_toBottomOf="@+id/button_recupera_dmo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
